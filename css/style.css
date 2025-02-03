@@ -101,8 +101,13 @@ main > section {
   height: 300px;
 }
 
-h2 {
+h1 {
   margin: 30px;
+}
+
+.row-one {
+  margin: 30px;
+  text-align: center; 
 }
 
 .button-mac {

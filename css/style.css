@@ -122,7 +122,6 @@ h1 {
   background-color: #23272a;
   border-radius: 10px;
   color: #ffffff ;
-
 }
 
 
@@ -141,6 +140,17 @@ h2 {
 
 
 
+.small-box-second {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.row-three {
+  margin: 30px;
+}
+
+
+
 .big-box {
   background-color: #1e90ff;
   height: 300px;
@@ -153,13 +163,6 @@ h2 {
   flex-grow: 1;
 }
 
-.first {
-  order: 1;
-}
-
-.second {
-  order: 2;
-}
 
 .box-2 {
   background-color: #228b22;

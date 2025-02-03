@@ -125,6 +125,18 @@ h1 {
 
 }
 
+
+.big-box-one {
+  background-image: url("../img/item1.svg");
+  height: 300px;
+  flex-grow: 2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
 .big-box {
   background-color: #1e90ff;
   height: 300px;
@@ -184,7 +196,7 @@ footer {
 
 /* background color in pagina */
 
-.bg-blue {
+.jumbo-image {
   background-image: url("../img/jumbo.png") ;
   background-position: center;
   background-size: cover;

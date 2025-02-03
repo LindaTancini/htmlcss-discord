@@ -65,8 +65,6 @@ header {
 
 .container-3 {
   display: flex;
-  height: 500px;
-  justify-content: center;
   width: 800px;
   margin: 0 auto;
   padding-top: 5px;
@@ -199,10 +197,17 @@ footer {
   flex-direction: column;
 }
 
-.left-footer h3{
+.left_footer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer-row{
+  display: flex;
   color: #7288da;
   margin-top: 30px;
   margin-bottom: 30px;
+  flex-grow: 1;
 }
 
 .bandiera img {
@@ -223,13 +228,16 @@ footer {
 
 .right-footer {
   display: flex;
-  background-color: #20b2aa;
   flex-grow: 2;
   flex-direction: row;
 }
 
+h5 {
+  color: #7288da; 
+}
+
 .micro-layout {
-  border: 2px dashed #ffffff;
+  list-style-type: none;
   flex-grow: 1;
 }
 

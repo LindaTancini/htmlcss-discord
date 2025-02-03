@@ -127,12 +127,16 @@ h1 {
 
 
 .big-box-one {
-  background-image: url("../img/item1.svg");
-  height: 300px;
-  flex-grow: 2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  flex-shrink: 1;
+}
+
+h2 {
+  margin: 60px;
+}
+
+.row-two {
+  margin: 30px;
 }
 
 

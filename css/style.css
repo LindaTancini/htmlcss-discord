@@ -178,7 +178,7 @@ h2 {
   margin: 20px;
 }
 
-h3 {
+h3 .row-star{
   background-image: url("../img/stars.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -199,9 +199,26 @@ footer {
   flex-direction: column;
 }
 
-.left-footer {
-  background-color: #f08080;
-  flex-grow: 1;
+.left-footer h3{
+  color: #7288da;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bandiera img {
+  height: 20px;
+  width: auto;
+}
+
+.bandiera {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fab {
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
 }
 
 .right-footer {

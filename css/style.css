@@ -16,39 +16,36 @@
 /*Header*/
 
 header {
-  display: flex;
   background-color: #255ee9 ;
 }
 
-header .bar-container {
+.nav-bar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #255ee9;
-  list-style-type: none;
-  margin: 10px;
+  padding: 10px 20px;
 }
 
 .logo {
   display: flex;
   flex-shrink: 0;
-  align-items: start;
 }
 
-.link {
+.menu {
   display: flex;
-  flex-grow: 1;
-  align-items: center;
-  padding: 5px;
+  list-style-type: none;
+  gap: 20px;
   color: #ffffff;
 }
 
 .login {
   display: flex;
   flex-shrink: 0;
-  justify-content: end;
   padding: 10px 15px;
   background-color: #ffffff;
   border-radius: 10px;
-
+  
 }
 
 /*container*/
@@ -101,11 +98,10 @@ main > section {
 .box-1 {
   flex-basis: 700px;
   height: 300px;
-  background-color: #ee82ee;
 }
 
 .big-box {
-  background-image: url(img\jumbo.png);
+  background-color: #1e90ff;
   height: 300px;
   flex-grow: 2;
 }
@@ -164,7 +160,10 @@ footer {
 /* background color in pagina */
 
 .bg-blue {
-  background-color: #00008b;
+  background-image: url("../img/jumbo.png") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-white {

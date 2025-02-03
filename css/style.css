@@ -45,7 +45,6 @@ header {
   padding: 10px 15px;
   background-color: #ffffff;
   border-radius: 10px;
-  
 }
 
 /*container*/
@@ -53,6 +52,8 @@ header {
 .container {
   display: flex;
   justify-content: center;
+  text-align: center;
+  color: #ffffff;
 }
 
 .container-2 {
@@ -98,6 +99,25 @@ main > section {
 .box-1 {
   flex-basis: 700px;
   height: 300px;
+}
+
+h2 {
+  margin: 30px;
+}
+
+.button-mac {
+  padding: 10px 15px;
+  background-color: #ffffff ;
+  border-radius: 10px;
+  color: #000000 ;
+}
+
+.button-browser {
+  padding: 10px 15px;
+  background-color: #23272a;
+  border-radius: 10px;
+  color: #ffffff ;
+
 }
 
 .big-box {

@@ -17,42 +17,38 @@
 
 header {
   display: flex;
-  background-color: #add8e6;
-  justify-content: center;
+  background-color: #255ee9 ;
 }
 
 header .bar-container {
   display: flex;
-  background-color: #daa520;
+  background-color: #255ee9;
   list-style-type: none;
-  flex-basis: 1000px;
   margin: 10px;
-  justify-content: space-between;
 }
 
 .logo {
-  align-items: center;
   display: flex;
-  border: 1px solid black;
-  flex-grow: 1;
-  padding-left: 5px;
-  justify-content: start;
+  flex-shrink: 0;
+  align-items: start;
 }
 
 .link {
   display: flex;
-  border: 1px solid black;
-  flex-grow: 2;
-  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
   padding: 5px;
+  color: #ffffff;
 }
 
 .login {
   display: flex;
-  border: 1px solid black;
-  flex-grow: 1;
+  flex-shrink: 0;
   justify-content: end;
-  padding: 5px;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+
 }
 
 /*container*/
@@ -109,7 +105,7 @@ main > section {
 }
 
 .big-box {
-  background-color: #1e90ff;
+  background-image: url(img\jumbo.png);
   height: 300px;
   flex-grow: 2;
 }

@@ -96,6 +96,8 @@ main > section {
   padding-bottom: 30px;
 }
 
+/* first section*/
+
 .box-1 {
   flex-basis: 700px;
   height: 300px;
@@ -124,6 +126,7 @@ h1 {
   color: #ffffff ;
 }
 
+/*second section*/
 
 .big-box-one {
   display: flex;
@@ -138,27 +141,33 @@ h2 {
   margin: 30px;
 }
 
-
-
 .small-box-second {
   display: flex;
   flex-shrink: 1;
 }
 
+/* third section*/
+
 .row-three {
+  margin: 30px;
+}
+
+/* fourth section*/
+
+.row-four {
   margin: 30px;
 }
 
 
 
+
+
 .big-box {
-  background-color: #1e90ff;
   height: 300px;
   flex-grow: 2;
 }
 
 .small-box {
-  background-color: #ffc0cb;
   height: 300px;
   flex-grow: 1;
 }
